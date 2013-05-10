@@ -1,21 +1,21 @@
 package even
 
 import (
-  "testing"
-  "fmt"
+	"fmt"
+	"testing"
 )
 
 func TestEven(t *testing.T) {
-  if ! Even(2) {
-    t.Errorf("2 should be even")
-  }
+	if !Even(2) {
+		t.Errorf("2 should be even")
+	}
 
 }
 
 func ExampleEven() {
-  if Even(2) {
-    fmt.Printf("Is even\n")
-  }
-  // Output:
-  // Is even
+	if Even(2) {
+		fmt.Printf("Is even\n")
+	}
+	// Output:
+	// Is even
 }

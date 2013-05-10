@@ -1,11 +1,11 @@
 package main
 
 import (
-  "even"
-  "fmt"
+	"even"
+	"fmt"
 )
 
 func main() {
-  i := 5
-  fmt.Printf("Is %d even? %v\n", i, even.Even(i))
+	i := 5
+	fmt.Printf("Is %d even? %v\n", i, even.Even(i))
 }
