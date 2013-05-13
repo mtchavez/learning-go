@@ -9,10 +9,6 @@ import (
 
 var nLines int
 
-// func cat() {
-
-// }
-
 func main() {
 	flag.IntVar(&nLines, "n", 0, "Number of lines to print out")
 	flag.Usage = usage
